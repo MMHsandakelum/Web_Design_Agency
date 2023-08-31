@@ -12,6 +12,30 @@ body {
 
 h1 {
   font-size: 5rem;
+  margin-top: 53px;
+  display: block;
+}
+span {
+  color: #191970;
+}
+
+.card {
+  display: inline-block;
+  width: 45%;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 footer {
@@ -19,3 +43,26 @@ footer {
   color: midnightblue;
 }
 
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+}
